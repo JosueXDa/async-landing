@@ -84,7 +84,7 @@ async function fetchData(url){
                     </div>
                     </div>
                 `;
-            }).slice(0, 10).join('')} 
+            }).slice(0, 50).join('')} 
         `;
          content.innerHTML = view;
      } catch(err){
